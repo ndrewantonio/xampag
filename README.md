@@ -4,7 +4,7 @@
 
 xamPAG ensures exam scores are immutable, transparent, and secure on the blockchain, unlike Web2 platforms prone to manipulation or loss. It also introduces NFTs as proof of grades, letting users own, showcase, and verify their credentials in the Web3 ecosystem. xamPAG is deploy on **Manta Pacific Mainnet**
 
-## Smart Contracts
+## Smart Contracts (Live on Manta Pacific Mainnet)
 
 - **ExamFactory CA:** [0x8983848574A7dFd61652AB259a225cDeD8929F65](https://pacific-explorer.manta.network/address/0x8983848574A7dFd61652AB259a225cDeD8929F65)  
 - **ExamContract CA:** [0xfD71c80f8d5c01d96D05419Ae42F9b53018b8b1E](https://pacific-explorer.manta.network/address/0xfD71c80f8d5c01d96D05419Ae42F9b53018b8b1E) 
