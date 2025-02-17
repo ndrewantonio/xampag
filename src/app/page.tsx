@@ -1,4 +1,5 @@
 import Hero from '@/components/home/hero'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -13,11 +14,14 @@ export default function Home() {
               <h1 className="text-center text-3xl font-semibold text-white">
                 Create Exam
               </h1>
+              
 
               <div className="flex justify-end">
+                <Link href="/create-exam">
                 <button className="rounded-full bg-gray-100 p-4 font-medium">
                   Create Now
                 </button>
+                </Link>
               </div>
             </div>
           </div>
