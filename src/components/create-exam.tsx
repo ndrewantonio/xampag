@@ -153,7 +153,7 @@ export function ExamForm() {
 
     setIsSubmitting(true);
     try {
-      const { data, error } = await supabase
+      const { error } = await supabase
         .from("exams")
         .insert([{
           title,
@@ -179,7 +179,7 @@ export function ExamForm() {
         price: 0,
       });
     } catch (error) {
-      showToast("Error", "Failed to create exam. Please try again.", "error");
+      showToast("Error", `Failed to create exam: ${error instanceof Error ? error.message : 'Unknown error'}`, "error");
     } finally {
       setIsSubmitting(false);
     }
@@ -219,7 +219,7 @@ export function ExamForm() {
 
           {questions.length === 0 && (
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-blue-700">
-              No questions added yet. Click "Add Question" to begin creating your exam.
+              No questions added yet. Click Add Question to begin creating your exam.
             </div>
           )}
 
