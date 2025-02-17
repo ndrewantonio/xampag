@@ -7,7 +7,8 @@ xamPAG ensures exam scores are immutable, transparent, and secure on the blockch
 ## Smart Contracts
 
 - **ExamFactory CA:** [0x8983848574A7dFd61652AB259a225cDeD8929F65](https://pacific-explorer.manta.network/address/0x8983848574A7dFd61652AB259a225cDeD8929F65)  
-- **ExamContract CA:** [0xfD71c80f8d5c01d96D05419Ae42F9b53018b8b1E](https://pacific-explorer.manta.network/address/0xfD71c80f8d5c01d96D05419Ae42F9b53018b8b1E)
+- **ExamContract CA:** [0xfD71c80f8d5c01d96D05419Ae42F9b53018b8b1E](https://pacific-explorer.manta.network/address/0xfD71c80f8d5c01d96D05419Ae42F9b53018b8b1E) 
+- **e.g Clone Exam CA:** [0xa44400De549c41442DdB5C1Fa4E2b6306a00edB8](https://pacific-explorer.manta.network/address/0xa44400De549c41442DdB5C1Fa4E2b6306a00edB8)
 
 
 ## Installation and Initial Set Up 🛠️
